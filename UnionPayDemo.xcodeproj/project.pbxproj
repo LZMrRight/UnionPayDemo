@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		846136391CA128A2002A5879 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 846136381CA128A2002A5879 /* main.m */; };
+		8461363C1CA128A2002A5879 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8461363B1CA128A2002A5879 /* AppDelegate.m */; };
+		8461363F1CA128A2002A5879 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8461363E1CA128A2002A5879 /* ViewController.m */; };
+		846136421CA128A2002A5879 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846136401CA128A2002A5879 /* Main.storyboard */; };
+		846136441CA128A2002A5879 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846136431CA128A2002A5879 /* Assets.xcassets */; };
+		846136471CA128A2002A5879 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846136451CA128A2002A5879 /* LaunchScreen.storyboard */; };
+		846136521CA128A2002A5879 /* UnionPayDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 846136511CA128A2002A5879 /* UnionPayDemoTests.m */; };
+		8461365D1CA128A2002A5879 /* UnionPayDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8461365C1CA128A2002A5879 /* UnionPayDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8461364E1CA128A2002A5879 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8461362C1CA128A2002A5879 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 846136331CA128A2002A5879;
+			remoteInfo = UnionPayDemo;
+		};
+		846136591CA128A2002A5879 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8461362C1CA128A2002A5879 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 846136331CA128A2002A5879;
+			remoteInfo = UnionPayDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		846136341CA128A2002A5879 /* UnionPayDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnionPayDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		846136381CA128A2002A5879 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8461363A1CA128A2002A5879 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8461363B1CA128A2002A5879 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8461363D1CA128A2002A5879 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8461363E1CA128A2002A5879 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		846136411CA128A2002A5879 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		846136431CA128A2002A5879 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		846136461CA128A2002A5879 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		846136481CA128A2002A5879 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8461364D1CA128A2002A5879 /* UnionPayDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnionPayDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		846136511CA128A2002A5879 /* UnionPayDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnionPayDemoTests.m; sourceTree = "<group>"; };
+		846136531CA128A2002A5879 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846136581CA128A2002A5879 /* UnionPayDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnionPayDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8461365C1CA128A2002A5879 /* UnionPayDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnionPayDemoUITests.m; sourceTree = "<group>"; };
+		8461365E1CA128A2002A5879 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		846136311CA128A2002A5879 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8461364A1CA128A2002A5879 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846136551CA128A2002A5879 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8461362B1CA128A2002A5879 = {
+			isa = PBXGroup;
+			children = (
+				846136361CA128A2002A5879 /* UnionPayDemo */,
+				846136501CA128A2002A5879 /* UnionPayDemoTests */,
+				8461365B1CA128A2002A5879 /* UnionPayDemoUITests */,
+				846136351CA128A2002A5879 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		846136351CA128A2002A5879 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				846136341CA128A2002A5879 /* UnionPayDemo.app */,
+				8461364D1CA128A2002A5879 /* UnionPayDemoTests.xctest */,
+				846136581CA128A2002A5879 /* UnionPayDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		846136361CA128A2002A5879 /* UnionPayDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8461363A1CA128A2002A5879 /* AppDelegate.h */,
+				8461363B1CA128A2002A5879 /* AppDelegate.m */,
+				8461363D1CA128A2002A5879 /* ViewController.h */,
+				8461363E1CA128A2002A5879 /* ViewController.m */,
+				846136401CA128A2002A5879 /* Main.storyboard */,
+				846136431CA128A2002A5879 /* Assets.xcassets */,
+				846136451CA128A2002A5879 /* LaunchScreen.storyboard */,
+				846136481CA128A2002A5879 /* Info.plist */,
+				846136371CA128A2002A5879 /* Supporting Files */,
+			);
+			path = UnionPayDemo;
+			sourceTree = "<group>";
+		};
+		846136371CA128A2002A5879 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				846136381CA128A2002A5879 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		846136501CA128A2002A5879 /* UnionPayDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				846136511CA128A2002A5879 /* UnionPayDemoTests.m */,
+				846136531CA128A2002A5879 /* Info.plist */,
+			);
+			path = UnionPayDemoTests;
+			sourceTree = "<group>";
+		};
+		8461365B1CA128A2002A5879 /* UnionPayDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8461365C1CA128A2002A5879 /* UnionPayDemoUITests.m */,
+				8461365E1CA128A2002A5879 /* Info.plist */,
+			);
+			path = UnionPayDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		846136331CA128A2002A5879 /* UnionPayDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846136611CA128A2002A5879 /* Build configuration list for PBXNativeTarget "UnionPayDemo" */;
+			buildPhases = (
+				846136301CA128A2002A5879 /* Sources */,
+				846136311CA128A2002A5879 /* Frameworks */,
+				846136321CA128A2002A5879 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UnionPayDemo;
+			productName = UnionPayDemo;
+			productReference = 846136341CA128A2002A5879 /* UnionPayDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8461364C1CA128A2002A5879 /* UnionPayDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846136641CA128A2002A5879 /* Build configuration list for PBXNativeTarget "UnionPayDemoTests" */;
+			buildPhases = (
+				846136491CA128A2002A5879 /* Sources */,
+				8461364A1CA128A2002A5879 /* Frameworks */,
+				8461364B1CA128A2002A5879 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8461364F1CA128A2002A5879 /* PBXTargetDependency */,
+			);
+			name = UnionPayDemoTests;
+			productName = UnionPayDemoTests;
+			productReference = 8461364D1CA128A2002A5879 /* UnionPayDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		846136571CA128A2002A5879 /* UnionPayDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846136671CA128A2002A5879 /* Build configuration list for PBXNativeTarget "UnionPayDemoUITests" */;
+			buildPhases = (
+				846136541CA128A2002A5879 /* Sources */,
+				846136551CA128A2002A5879 /* Frameworks */,
+				846136561CA128A2002A5879 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8461365A1CA128A2002A5879 /* PBXTargetDependency */,
+			);
+			name = UnionPayDemoUITests;
+			productName = UnionPayDemoUITests;
+			productReference = 846136581CA128A2002A5879 /* UnionPayDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8461362C1CA128A2002A5879 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = lizheng;
+				TargetAttributes = {
+					846136331CA128A2002A5879 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					8461364C1CA128A2002A5879 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 846136331CA128A2002A5879;
+					};
+					846136571CA128A2002A5879 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 846136331CA128A2002A5879;
+					};
+				};
+			};
+			buildConfigurationList = 8461362F1CA128A2002A5879 /* Build configuration list for PBXProject "UnionPayDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8461362B1CA128A2002A5879;
+			productRefGroup = 846136351CA128A2002A5879 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				846136331CA128A2002A5879 /* UnionPayDemo */,
+				8461364C1CA128A2002A5879 /* UnionPayDemoTests */,
+				846136571CA128A2002A5879 /* UnionPayDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		846136321CA128A2002A5879 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846136471CA128A2002A5879 /* LaunchScreen.storyboard in Resources */,
+				846136441CA128A2002A5879 /* Assets.xcassets in Resources */,
+				846136421CA128A2002A5879 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8461364B1CA128A2002A5879 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846136561CA128A2002A5879 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		846136301CA128A2002A5879 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8461363F1CA128A2002A5879 /* ViewController.m in Sources */,
+				8461363C1CA128A2002A5879 /* AppDelegate.m in Sources */,
+				846136391CA128A2002A5879 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846136491CA128A2002A5879 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846136521CA128A2002A5879 /* UnionPayDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846136541CA128A2002A5879 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8461365D1CA128A2002A5879 /* UnionPayDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8461364F1CA128A2002A5879 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 846136331CA128A2002A5879 /* UnionPayDemo */;
+			targetProxy = 8461364E1CA128A2002A5879 /* PBXContainerItemProxy */;
+		};
+		8461365A1CA128A2002A5879 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 846136331CA128A2002A5879 /* UnionPayDemo */;
+			targetProxy = 846136591CA128A2002A5879 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		846136401CA128A2002A5879 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				846136411CA128A2002A5879 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		846136451CA128A2002A5879 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				846136461CA128A2002A5879 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8461365F1CA128A2002A5879 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		846136601CA128A2002A5879 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		846136621CA128A2002A5879 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UnionPayDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MR.UnionPayDemo.UnionPayDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		846136631CA128A2002A5879 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UnionPayDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MR.UnionPayDemo.UnionPayDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		846136651CA128A2002A5879 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UnionPayDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MR.UnionPayDemo.UnionPayDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnionPayDemo.app/UnionPayDemo";
+			};
+			name = Debug;
+		};
+		846136661CA128A2002A5879 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UnionPayDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MR.UnionPayDemo.UnionPayDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnionPayDemo.app/UnionPayDemo";
+			};
+			name = Release;
+		};
+		846136681CA128A2002A5879 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UnionPayDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MR.UnionPayDemo.UnionPayDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UnionPayDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		846136691CA128A2002A5879 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UnionPayDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MR.UnionPayDemo.UnionPayDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UnionPayDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8461362F1CA128A2002A5879 /* Build configuration list for PBXProject "UnionPayDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8461365F1CA128A2002A5879 /* Debug */,
+				846136601CA128A2002A5879 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846136611CA128A2002A5879 /* Build configuration list for PBXNativeTarget "UnionPayDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846136621CA128A2002A5879 /* Debug */,
+				846136631CA128A2002A5879 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		846136641CA128A2002A5879 /* Build configuration list for PBXNativeTarget "UnionPayDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846136651CA128A2002A5879 /* Debug */,
+				846136661CA128A2002A5879 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		846136671CA128A2002A5879 /* Build configuration list for PBXNativeTarget "UnionPayDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846136681CA128A2002A5879 /* Debug */,
+				846136691CA128A2002A5879 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8461362C1CA128A2002A5879 /* Project object */;
+}
