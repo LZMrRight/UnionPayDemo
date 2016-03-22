@@ -15,6 +15,7 @@
 		846136471CA128A2002A5879 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846136451CA128A2002A5879 /* LaunchScreen.storyboard */; };
 		846136521CA128A2002A5879 /* UnionPayDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 846136511CA128A2002A5879 /* UnionPayDemoTests.m */; };
 		8461365D1CA128A2002A5879 /* UnionPayDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8461365C1CA128A2002A5879 /* UnionPayDemoUITests.m */; };
+		846136831CA129D3002A5879 /* libPaymentControl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 846136821CA129D3002A5879 /* libPaymentControl.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		846136581CA128A2002A5879 /* UnionPayDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnionPayDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8461365C1CA128A2002A5879 /* UnionPayDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnionPayDemoUITests.m; sourceTree = "<group>"; };
 		8461365E1CA128A2002A5879 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846136801CA129D3002A5879 /* UPPaymentControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPPaymentControl.h; sourceTree = "<group>"; };
+		846136821CA129D3002A5879 /* libPaymentControl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPaymentControl.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				846136831CA129D3002A5879 /* libPaymentControl.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,14 +105,11 @@
 		846136361CA128A2002A5879 /* UnionPayDemo */ = {
 			isa = PBXGroup;
 			children = (
+				8461367D1CA129D3002A5879 /* UnionPay */,
 				8461363A1CA128A2002A5879 /* AppDelegate.h */,
 				8461363B1CA128A2002A5879 /* AppDelegate.m */,
 				8461363D1CA128A2002A5879 /* ViewController.h */,
 				8461363E1CA128A2002A5879 /* ViewController.m */,
-				846136401CA128A2002A5879 /* Main.storyboard */,
-				846136431CA128A2002A5879 /* Assets.xcassets */,
-				846136451CA128A2002A5879 /* LaunchScreen.storyboard */,
-				846136481CA128A2002A5879 /* Info.plist */,
 				846136371CA128A2002A5879 /* Supporting Files */,
 			);
 			path = UnionPayDemo;
@@ -117,6 +118,10 @@
 		846136371CA128A2002A5879 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				846136401CA128A2002A5879 /* Main.storyboard */,
+				846136431CA128A2002A5879 /* Assets.xcassets */,
+				846136451CA128A2002A5879 /* LaunchScreen.storyboard */,
+				846136481CA128A2002A5879 /* Info.plist */,
 				846136381CA128A2002A5879 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +143,39 @@
 				8461365E1CA128A2002A5879 /* Info.plist */,
 			);
 			path = UnionPayDemoUITests;
+			sourceTree = "<group>";
+		};
+		8461367D1CA129D3002A5879 /* UnionPay */ = {
+			isa = PBXGroup;
+			children = (
+				8461367E1CA129D3002A5879 /* paymentcontrol */,
+			);
+			path = UnionPay;
+			sourceTree = "<group>";
+		};
+		8461367E1CA129D3002A5879 /* paymentcontrol */ = {
+			isa = PBXGroup;
+			children = (
+				8461367F1CA129D3002A5879 /* inc */,
+				846136811CA129D3002A5879 /* libs */,
+			);
+			path = paymentcontrol;
+			sourceTree = "<group>";
+		};
+		8461367F1CA129D3002A5879 /* inc */ = {
+			isa = PBXGroup;
+			children = (
+				846136801CA129D3002A5879 /* UPPaymentControl.h */,
+			);
+			path = inc;
+			sourceTree = "<group>";
+		};
+		846136811CA129D3002A5879 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				846136821CA129D3002A5879 /* libPaymentControl.a */,
+			);
+			path = libs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -413,7 +451,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = UnionPayDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.MR.UnionPayDemo.UnionPayDemo;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UnionPayDemo/UnionPay/paymentcontrol/libs",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MR.UnionPayDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -424,7 +466,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = UnionPayDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.MR.UnionPayDemo.UnionPayDemo;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UnionPayDemo/UnionPay/paymentcontrol/libs",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MR.UnionPayDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
